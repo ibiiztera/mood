@@ -19,5 +19,5 @@ public interface MoodMilliControleur {
     public void point(Point p, ColorO co);
     public void bezier(Point p1, Point p2, Point p3, Point p4, ColorO co);
     public BufferedImage image();
-    
+    public void update();
 }
